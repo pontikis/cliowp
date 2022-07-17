@@ -1,0 +1,13 @@
+# Visual Studio Code workspace -------------------------------------------------
+/.vscode
+
+# Sublime Text workspace -------------------------------------------------------
+wp_dev_starter_theme.sublime-workspace
+
+# JetBrains PhpStorm IDE files -------------------------------------------------
+/.idea/
+
+# php cs fixer cache -----------------------------------------------------------
+.php_cs.cache
+.php-cs-fixer.cache
+# ------------------------------------------------------------------------------
