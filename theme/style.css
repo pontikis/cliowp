@@ -9,3 +9,7 @@
     License URI: https://github.com/pontikis/wp_dev_starter_theme/blob/master/LICENSE
     Tags: wordpress developer, wordpress development, boilerplate, starter theme.
 */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
