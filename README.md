@@ -2,6 +2,15 @@
 
 WordPress Starter Theme for Developers
 
+## How to use it
+
+* Rename the directory `theme`
+* Configure metadata in `style.css`
+* Use your own `screenshot.png`
+* Add your custom code
+* Updload it to WordPress (`wp-content/themes`)
+
+More info https://developer.wordpress.org/themes/
 
 ## Code standards
 
