@@ -5,10 +5,22 @@
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  */
 
-function get_front_end_assets()
+/**
+ * Load CSS, JS , web fonts etc
+ */
+function load_front_end_assets()
 {
     wp_enqueue_style('load_google_font_ubuntu', '//fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
     wp_enqueue_style('load_main_css_style', get_stylesheet_uri());
 }
 
-add_action('wp_enqueue_scripts', 'get_front_end_assets');
+add_action('wp_enqueue_scripts', 'load_front_end_assets');
+
+/**
+ * Set title tag to web page
+ */
+function set_webpage_properties() {
+  add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'set_webpage_properties');
