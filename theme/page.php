@@ -1,3 +1,10 @@
+<?php
+/**
+ * The template for displaying a page
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ */
+?>
 <?php get_header(); ?>
 
 <?php while (have_posts()):

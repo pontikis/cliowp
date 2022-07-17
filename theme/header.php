@@ -1,3 +1,10 @@
+<?php
+/**
+ * The template for displaying the header
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ */
+?>
 <!DOCTYPE html>
 <html>
 

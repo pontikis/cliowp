@@ -1,4 +1,9 @@
 <?php
+/**
+ * Theme functions
+ *
+ * @link https://developer.wordpress.org/themes/basics/theme-functions/
+ */
 
 function get_front_end_assets()
 {
