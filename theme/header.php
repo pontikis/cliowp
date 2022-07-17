@@ -14,4 +14,4 @@
 
 <body>
     <!-- CUSTOM CODE HERE -->
-    <p><a href="/">Home page</a></p>
+    <p><a href="<?php echo site_url(); ?>">Home page</a></p>
