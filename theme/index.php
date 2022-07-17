@@ -3,13 +3,11 @@
  * The main template file for displaying the Home page
  * (or any other page if a specific template does not exist for it).
  *
+ * This is the Famous WordPress Loop
+ *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  */
 ?>
-<?php
-// this is the Famous WordPress Loop
-?>
-
 <?php get_header(); ?>
 
 <?php while (have_posts()): ?>
