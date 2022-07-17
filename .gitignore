@@ -11,7 +11,7 @@ wp_dev_starter_theme.sublime-workspace
 /vendor/
 
 # Front end assets -------------------------------------------------------------
-/web/node_modules/
+/node_modules/
 
 
 # php cs fixer cache -----------------------------------------------------------
