@@ -1,4 +1,4 @@
-# wp_starter_theme
+# wp_dev_starter_theme
 
 WordPress Starter Theme for Developers
 
@@ -8,7 +8,7 @@ WordPress Starter Theme for Developers
 * Configure metadata in `style.css`
 * Use your own `screenshot.png`
 * Add your custom code
-* Updload it to WordPress (`wp-content/themes`)
+* Upload it to WordPress (`wp-content/themes`)
 
 More info https://developer.wordpress.org/themes/
 
