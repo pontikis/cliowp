@@ -14,3 +14,4 @@
 
 <body>
     <!-- CUSTOM CODE HERE -->
+    <p><a href="/">Home page</a></p>
