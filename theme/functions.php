@@ -19,8 +19,11 @@ add_action('wp_enqueue_scripts', 'load_front_end_assets');
 /**
  * Set title tag to web page
  */
-function set_webpage_properties() {
-  add_theme_support('title-tag');
+function set_theme_properties()
+{
+    register_nav_menu('header_menu_location', 'Header Menu Location');
+    register_nav_menu('footer_menu_location', 'Footer Menu Location');
+    add_theme_support('title-tag');
 }
 
-add_action('after_setup_theme', 'set_webpage_properties');
+add_action('after_setup_theme', 'set_theme_properties');

@@ -9,11 +9,19 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta
+        charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
     <!-- CUSTOM CODE HERE -->
-    <p><a href="<?php echo site_url(); ?>">Home page</a></p>
+    <div>
+    <?php wp_nav_menu(
+    [
+        'theme_location' => 'header_menu_location',
+        'menu_class'     => 'menu-top',
+    ]); ?>
+    </div>
+    <br>

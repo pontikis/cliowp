@@ -13,3 +13,19 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
+
+
+.menu-top {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-top li {
+    float: left;
+}
+
+.menu-top li a {
+    display: block;
+    padding: 8px;
+}
