@@ -2,6 +2,9 @@
 
 WordPress Starter Theme for Developers
 
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 ## How to use it
 
 * Rename the directory `theme`
