@@ -14,18 +14,34 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-
-.menu-top {
+.wp-dev-menu-top {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
-.menu-top li {
+.wp-dev-menu-top li {
     float: left;
 }
 
-.menu-top li a {
+.wp-dev-menu-top li a {
+    display: block;
+    padding: 8px;
+}
+
+.wp-dev-menu-bottom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.wp-dev-menu-bottom li {
+    float: left;
+}
+
+.wp-dev-menu-bottom a {
     display: block;
     padding: 8px;
 }

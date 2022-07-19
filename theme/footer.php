@@ -6,9 +6,13 @@
  */
 ?>
 
-<?php
-// custom code here
-?>
+<?php wp_nav_menu(
+    [
+        'theme_location' => 'footer_menu_location',
+        'menu_class'     => 'wp-dev-menu-bottom',
+        'container'      => 'nav',
+    ]); ?>
+
 
 <?php wp_footer(); ?>
 </body>

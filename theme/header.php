@@ -16,12 +16,10 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <!-- CUSTOM CODE HERE -->
-    <div>
     <?php wp_nav_menu(
     [
         'theme_location' => 'header_menu_location',
-        'menu_class'     => 'menu-top',
+        'menu_class'     => 'wp-dev-menu-top',
+        'container'      => 'nav',
     ]); ?>
-    </div>
-    <br>
+
