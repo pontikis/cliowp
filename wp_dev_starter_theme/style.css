@@ -1,10 +1,14 @@
 /*
     Theme Name: WordPress Starter Theme for Developers
+    Text Domain: wp_dev_starter_theme
     Theme URI: https://github.com/pontikis/wp_dev_starter_theme
     Description: A simple theme boilerplate for Developers with fundamental functionality. Basic template files. Load front-end assets (CSS, JS, Google Fonts, etc). Custom menus.
     Author: Christos Pontikis
     Author URI: https://pontikis.net
     Version: 1.0.0
+    Tested up to:       6.0
+    Requires at least:  5.3
+    Requires PHP:       7.4
     License: MIT
     License URI: https://github.com/pontikis/wp_dev_starter_theme/blob/master/LICENSE
     Tags: wordpress developer, wordpress development, boilerplate, starter theme.
