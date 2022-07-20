@@ -2,8 +2,8 @@
 
 WordPress Starter Theme for Developers
 
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+wp_dev_starter_theme WordPress Theme, (C) 2022 Christos Pontikis
+wp_dev_starter_theme is distributed under the terms of the GNU GPL.
 
 ## How to use it
 
@@ -20,7 +20,3 @@ More info https://developer.wordpress.org/themes/
 I prefer to use Alternative PHP syntax for control structures
 
 See  https://www.php.net/manual/en/control-structures.alternative-syntax.php
-
-## Credits
-
-Screenshot: https://pixabay.com/photos/wordpress-hand-logo-589121/
