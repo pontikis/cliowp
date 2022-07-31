@@ -7,6 +7,8 @@ wp_dev_starter_theme is distributed under the terms of the GNU GPL.
 
 ## How to use it
 
+In order to create your own theme, starting with wp_dev_starter_theme:
+
 * Rename the directory `theme`
 * Configure metadata in `style.css`
 * Use your own `screenshot.png`
@@ -15,7 +17,16 @@ wp_dev_starter_theme is distributed under the terms of the GNU GPL.
 
 More info https://developer.wordpress.org/themes/
 
-## Code standards
+## Blog aspect
+
+Using WordPress admin:
+
+* * Go to Settings -> Permalinks and choose "Post name" option
+* create two pages (Home and Blog)
+* Go to Settings -> Reading and set Homepage to Home and Posts page to Blog
+
+
+## Coding standards
 
 I prefer to use Alternative PHP syntax for control structures
 
