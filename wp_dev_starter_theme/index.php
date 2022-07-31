@@ -15,9 +15,19 @@
 <?php the_post(); ?>
 
 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-<?php the_content(); ?>
+
+<div>
+<?php the_author_posts_link();  ?> | <?php the_time('j-n-Y');  ?> | <?php echo get_the_category_list(', ');  ?>
+</div>
+
+<?php the_excerpt(); ?>
+
+<small><a href="<?php the_permalink(); ?>">More &raquo; </a></small>
+
 <hr>
 
 <?php endwhile; ?>
+
+<p><?php echo paginate_links(); ?></p>
 
 <?php get_footer();
