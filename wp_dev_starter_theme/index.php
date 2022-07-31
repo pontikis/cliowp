@@ -17,7 +17,7 @@
 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
 <div>
-<?php the_author_posts_link();  ?> | <?php the_time('j-n-Y');  ?> | <?php echo get_the_category_list(', ');  ?>
+<?php get_template_part('parts/topic_meta');  ?>
 </div>
 
 <?php the_excerpt(); ?>

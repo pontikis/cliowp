@@ -12,6 +12,11 @@
 
 <h2><?php the_title(); ?>
 </h2>
+
+<div>
+<?php get_template_part('parts/topic_meta');  ?>
+</div>
+
 <?php the_content(); ?>
 
 <?php endwhile; ?>
