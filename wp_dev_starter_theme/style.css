@@ -56,3 +56,7 @@ body {
 .current-menu-item a {
     color: red;
 }
+
+.post-meta-container {
+    padding: 10px;
+}

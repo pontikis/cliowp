@@ -17,6 +17,8 @@
 <?php get_template_part('parts/topic_meta');  ?>
 </div>
 
+<?php the_post_thumbnail(); ?>
+
 <?php the_content(); ?>
 
 <?php endwhile; ?>
