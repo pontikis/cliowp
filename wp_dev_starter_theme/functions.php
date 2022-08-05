@@ -24,6 +24,7 @@ function set_theme_properties()
     register_nav_menu('header_menu_location', 'Header Menu Location');
     register_nav_menu('footer_menu_location', 'Footer Menu Location');
     add_theme_support('title-tag');
+    add_theme_support('post-thumbnails');
 }
 
 add_action('after_setup_theme', 'set_theme_properties');
