@@ -1,6 +1,6 @@
 # CHANGELOG
 
-WordPress Starter Theme for Developers
+ClioWP - WordPress Starter Theme for Developers
 
 https://github.com/pontikis/wp_dev_starter_theme
 

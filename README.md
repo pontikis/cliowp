@@ -1,10 +1,9 @@
-# wp_dev_starter_theme
+# ClioWP
 
 WordPress Starter Theme for Developers
 
 ## How to use it
 
-* Rename the directory `theme`
 * Configure metadata in `style.css`
 * Use your own `screenshot.png`
 * Add your custom code
