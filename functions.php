@@ -25,6 +25,7 @@ function set_theme_properties()
     register_nav_menu('footer_menu_location', 'Footer Menu Location');
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
+    add_theme_support('automatic-feed-links');
     load_theme_textdomain('cliowp', get_template_directory() . '/languages');
 }
 
