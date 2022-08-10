@@ -11,7 +11,7 @@ $recent_posts = new WP_Query([
 ?>
 <?php get_header(); ?>
 
-<h1><?php _e('Home'); ?></h1>
+<h1><?php _e('Home', 'cliowp'); ?></h1>
 
 <?php while ($recent_posts->have_posts()): ?>
 <?php $recent_posts->the_post(); ?>
