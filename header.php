@@ -16,6 +16,9 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+    <?php wp_body_open(); ?>
+
     <?php wp_nav_menu(
     [
         'theme_location' => 'header_menu_location',
