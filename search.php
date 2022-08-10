@@ -11,14 +11,14 @@ wp_reset_query();
 ?>
 <?php get_header(); ?>
 
-<h1>Search results</h1>
+<h1><?php _e('Search results'); ?></h1>
 
-<h2>Search query: &ldquo;<?php echo esc_html(get_search_query()); ?>&rdquo;</h2>
+<h2><?php _e('Search query'); ?>: &ldquo;<?php echo esc_html(get_search_query()); ?>&rdquo;</h2>
 
 <?php if ($count_results): ?>
-<h3>Results: <?php echo $count_results ?></h3>
+<h3><?php _e('Results'); ?>: <?php echo $count_results ?></h3>
 <?php else: ?>
-<h3>No results for this query...</h3>
+<h3><?php _e('No results for this query'); ?>...</h3>
 <?php endif; ?>
 
 <?php get_template_part('parts/famous_wordpress_loop'); ?>
