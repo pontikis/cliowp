@@ -1,20 +1,20 @@
 /*
-    Theme Name: ClioWP
-    Text Domain: cliowp
-    Theme URI: https://github.com/pontikis/cliowp
-    Description: ClioWP is a WordPress Starter Theme for Developers. A simple theme boilerplate with fundamental functionality. Basic template files. Load front-end assets (CSS, JS, Google Fonts, etc). Custom menus.
-    Author: Christos Pontikis
-    Author URI: https://pontikis.net
-    Version: 1.0.0
-    Tested up to:       6.0
-    Requires at least:  5.3
-    Requires PHP:       7.4
-    License: GNU General Public License v2.0 or later
-    License URI: https://www.gnu.org/licenses/gpl-2.0.html
-    Tags: wordpress-developer, wordpress-development, boilerplate, starter-theme.
+Theme Name: ClioWP
+Text Domain: cliowp
+Theme URI: https://github.com/pontikis/cliowp
+Description: ClioWP is a WordPress Starter Theme for Developers. A simple theme boilerplate with fundamental functionality. Basic template files. Load front-end assets (CSS, JS, Google Fonts, etc). Custom menus.
+Author: Christos Pontikis
+Author URI: https://pontikis.net
+Version: 1.0.0
+Tested up to:       6.0
+Requires at least:  5.3
+Requires PHP:       7.4
+License: GNU General Public License v2.0 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: wordpress-developer, wordpress-development, boilerplate, starter-theme.
 
-    ClioWP WordPress Theme, (C) 2022 Christos Pontikis
-    ClioWP is distributed under the terms of the GNU GPL.
+ClioWP WordPress Theme, (C) 2022 Christos Pontikis
+ClioWP is distributed under the terms of the GNU GPL.
 */
 
 body {
