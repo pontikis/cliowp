@@ -17,46 +17,62 @@ ClioWP WordPress Theme, (C) 2022 Christos Pontikis
 ClioWP is distributed under the terms of the GNU GPL.
 */
 
+/* Typography */
 body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.wp-dev-menu-top {
+/* ClioWP demo classes */
+.cliowp-menu-top {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-.wp-dev-menu-top li {
+.cliowp-menu-top li {
     float: left;
 }
 
-.wp-dev-menu-top li a {
+.cliowp-menu-top li a {
     display: block;
     padding: 8px;
 }
 
-.wp-dev-menu-bottom {
+.cliowp-menu-top li a:hover {
+    color: red;
+}
+
+.cliowp-menu-bottom {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-.wp-dev-menu-bottom li {
+.cliowp-menu-bottom li {
     float: left;
 }
 
-.wp-dev-menu-bottom a {
+.cliowp-menu-bottom li a {
     display: block;
     padding: 8px;
 }
 
+.cliowp-menu-bottom li a:hover {
+    color: red;
+}
+
+.cliowp-post-meta-container {
+    padding: 10px 0 15px 0;
+}
+
+.cliowp-search-container {
+    padding: 10px 0 10px 0;
+}
+
+/* WordPress Menu */
 .current-menu-item a {
     color: red;
 }
 
-.post-meta-container {
-    padding: 10px;
-}

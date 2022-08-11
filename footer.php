@@ -9,7 +9,7 @@
 <?php wp_nav_menu(
     [
         'theme_location' => 'footer_menu_location',
-        'menu_class'     => 'wp-dev-menu-bottom',
+        'menu_class'     => 'cliowp-menu-bottom',
         'container'      => 'nav',
     ]); ?>
 

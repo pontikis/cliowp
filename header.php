@@ -22,10 +22,11 @@
     <?php wp_nav_menu(
     [
         'theme_location' => 'header_menu_location',
-        'menu_class'     => 'wp-dev-menu-top',
+        'menu_class'     => 'cliowp-menu-top',
         'container'      => 'nav',
-    ]); ?>
+    ]
+); ?>
 
-<div class="header-search">
-    <?php get_search_form(); ?>
-</div>
+    <div class="cliowp-search-container">
+        <?php get_search_form(); ?>
+    </div>
