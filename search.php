@@ -28,7 +28,7 @@ wp_reset_query();
 </h3>
 <?php endif; ?>
 
-<?php get_template_part('parts/famous_wordpress_loop'); ?>
+<?php get_template_part('template-parts/famous_wordpress_loop'); ?>
 
 <p><?php echo paginate_links(); ?>
 </p>
