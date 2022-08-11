@@ -13,11 +13,9 @@
 <h1><?php the_title(); ?>
 </h1>
 
-<div>
-<?php get_template_part('parts/topic_meta');  ?>
-</div>
-
 <?php the_post_thumbnail(); ?>
+
+<?php get_template_part('parts/topic_meta'); ?>
 
 <?php the_content(); ?>
 
