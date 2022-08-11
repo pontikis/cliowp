@@ -2,7 +2,7 @@
 /.vscode
 
 # Sublime Text workspace -------------------------------------------------------
-wp_dev_starter_theme.sublime-workspace
+cliowp.sublime-workspace
 
 # JetBrains PhpStorm IDE files -------------------------------------------------
 /.idea/
