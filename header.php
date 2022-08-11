@@ -17,7 +17,7 @@
 
 <body <?php body_class(); ?>>
 
-    <?php wp_body_open(); ?>
+    <?php wp_body_open(); // required by theme-check plugin ?>
 
     <?php wp_nav_menu(
     [

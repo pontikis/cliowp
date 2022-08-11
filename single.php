@@ -19,7 +19,7 @@
 
 <?php the_content(); ?>
 
-<?php wp_link_pages(); ?>
+<?php wp_link_pages(); // required by theme-check plugin ?>
 
 <?php endwhile; ?>
 
