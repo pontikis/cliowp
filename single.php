@@ -21,6 +21,8 @@
 
 <?php the_content(); ?>
 
+<?php wp_link_pages(); ?>
+
 <?php endwhile; ?>
 
 <?php get_footer();
