@@ -1,0 +1,31 @@
+{
+  "name": "cliowp",
+  "version": "1.0.0",
+  "description": "ClioWP is a WordPress Starter Theme for Developers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pontikis/cliowp.git"
+  },
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "author": "Christos Pontikis",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/pontikis/cliowp/issues"
+  },
+  "homepage": "https://github.com/pontikis/cliowp#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^23.7.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
