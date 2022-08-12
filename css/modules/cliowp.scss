@@ -1,9 +1,13 @@
 /* ClioWP demo classes */
-.cliowp-menu-top {
+@mixin cliowp-menu-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+
+.cliowp-menu-top {
+    @include cliowp-menu-ul();
 }
 
 .cliowp-menu-top li {
@@ -20,10 +24,7 @@
 }
 
 .cliowp-menu-bottom {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    @include cliowp-menu-ul();
 }
 
 .cliowp-menu-bottom li {
