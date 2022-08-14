@@ -12,6 +12,7 @@ In order to create your own theme, starting with ClioWP:
 * Configure metadata in `style.css`
 * Use your own `screenshot.png`
 * Apply your static HTML design
+* Replace text doamain ('clipowp') with your own
 * Add your custom code
 * Upload it to WordPress (`wp-content/themes`)
 
