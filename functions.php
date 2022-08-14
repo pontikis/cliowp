@@ -23,8 +23,8 @@ add_action('wp_enqueue_scripts', 'load_front_end_assets');
  */
 function set_theme_properties()
 {
-    register_nav_menu('header_menu_location', 'Header Menu Location');
-    register_nav_menu('footer_menu_location', 'Footer Menu Location');
+    register_nav_menu('header_menu_location', __('Header Menu Location', 'cliowp'));
+    register_nav_menu('footer_menu_location', __('Footer Menu Location', 'cliowp'));
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
     add_theme_support('automatic-feed-links'); //  // required by theme-check plugin
