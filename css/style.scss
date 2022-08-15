@@ -1,8 +1,11 @@
 /* 3rd party packages */
 @import "../node_modules/normalize.css/normalize.css";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 
 /* Modules */
-@import "modules/typography.scss";
+@import "modules/menu.scss";
+@import "modules/post.scss";
 @import "modules/responsive.scss";
-@import "modules/cliowp.scss";
+@import "modules/search.scss";
+@import "modules/typography.scss";
 @import "modules/wordpress.scss";

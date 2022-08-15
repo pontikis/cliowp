@@ -4,6 +4,16 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  */
+$menu_params_header = [
+    'theme_location' => 'header_menu_location',
+    'menu_class'     => 'cliowp-menu-top',
+    'container'      => 'nav',
+];
+$menu_params_mobile = [
+    'theme_location' => 'mobile_menu_location',
+    'menu_class'     => 'cliowp-menu-mobile',
+    'container'      => 'nav',
+];
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -17,16 +27,31 @@
 
 <body <?php body_class(); ?>>
 
-    <?php wp_body_open(); // required by theme-check plugin ?>
+    <?php wp_body_open(); // required by theme-check plugin?>
 
-    <?php wp_nav_menu(
-    [
-        'theme_location' => 'header_menu_location',
-        'menu_class'     => 'cliowp-menu-top',
-        'container'      => 'nav',
-    ]
-); ?>
+    <header class="cliowp-header">
 
-    <div class="cliowp-search-container">
-        <?php get_search_form(); ?>
-    </div>
+        <div class="cliowp-mobile-menu-container">
+                <?php wp_nav_menu($menu_params_mobile); ?>
+        </div>
+
+        <div class="float-left">
+            <p><a href="<?php echo site_url(); ?>"><?php echo get_bloginfo('name'); ?></a>
+            </p>
+        </div>
+
+        <div class="float-right">
+            <?php wp_nav_menu($menu_params_header); ?>
+
+            <i class="cliowp-mobile-menu-trigger bi bi-list" aria-hidden="true"></i>
+        </div>
+
+        <div class="clear-both"></div>
+
+        <div class="cliowp-search-container">
+            <?php get_search_form(); ?>
+        </div>
+
+        <div class="clear-both"></div>
+
+    </header>

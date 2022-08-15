@@ -1,0 +1,105 @@
+/* ClioWP menu classes */
+@mixin cliowp-menu-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+// top menu --------------------------------------------------------------------
+.cliowp-menu-top {
+    display: none;
+    @include cliowp-menu-ul();
+}
+
+@media (min-width: 960px) {
+    .cliowp-menu-top {
+        display: block;
+    }
+}
+
+.cliowp-menu-top li {
+    float: left;
+}
+
+.cliowp-menu-top li a {
+    display: block;
+    padding: 8px;
+}
+
+.cliowp-menu-top li a:hover {
+    color: red;
+}
+
+// bottom menu -----------------------------------------------------------------
+.cliowp-menu-bottom {
+    @include cliowp-menu-ul();
+}
+
+.cliowp-menu-bottom li {
+    float: left;
+}
+
+.cliowp-menu-bottom li a {
+    display: block;
+    padding: 8px;
+}
+
+.cliowp-menu-bottom li a:hover {
+    color: red;
+}
+
+// mobile menu -----------------------------------------------------------------
+.cliowp-mobile-menu-trigger {
+    color: red;
+    cursor: pointer;
+    font-size: 1.7rem;
+    font-weight: bold;
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    right: 20px;
+}
+
+@media (min-width: 960px) {
+    .cliowp-mobile-menu-trigger {
+        display: none;
+    }
+}
+
+.cliowp-menu-mobile {
+    @include cliowp-menu-ul();
+}
+
+.cliowp-menu-mobile li {
+    padding: 10px;
+}
+
+.cliowp-menu-mobile li a {
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+.cliowp-mobile-menu-container {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -20px;
+    font-size: 1.4rem;
+    background-color: rgba(49, 87, 55, 0.89);
+    padding-top: 38px;
+    padding-bottom: 20px;
+    opacity: 0;
+    transform: translateY(-20%);
+    transition: opacity 0.2s ease-out, visibility 0.2s ease-out, transform 0.2s ease-out;
+    //z-index: -1;
+    //pointer-events: none;
+}
+
+.cliowp-mobile-menu-active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}

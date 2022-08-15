@@ -24,6 +24,7 @@ add_action('wp_enqueue_scripts', 'load_front_end_assets');
 function set_theme_properties()
 {
     register_nav_menu('header_menu_location', __('Header Menu Location', 'cliowp'));
+    register_nav_menu('mobile_menu_location', __('Mobile Menu Location', 'cliowp'));
     register_nav_menu('footer_menu_location', __('Footer Menu Location', 'cliowp'));
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');

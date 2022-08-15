@@ -3,25 +3,20 @@
   \***************************************************************************************************************************************************************************************************************************************/
 /* 3rd party packages */
 /* Modules */
-/* Typography */
-body {
-  font-family: "Ubuntu", sans-serif;
-}
-
-/* Responsive Images */
-img {
-  height: auto;
-  max-width: 100%;
-}
-
-/* ClioWP demo classes */
+/* ClioWP menu classes */
 .cliowp-menu-top {
+  display: none;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
+@media (min-width: 960px) {
+  .cliowp-menu-top {
+    display: block;
+  }
+}
 .cliowp-menu-top li {
   float: left;
 }
@@ -55,12 +50,92 @@ img {
   color: red;
 }
 
+.cliowp-mobile-menu-trigger {
+  color: red;
+  cursor: pointer;
+  font-size: 1.7rem;
+  font-weight: bold;
+  position: absolute;
+  z-index: 10;
+  top: 20px;
+  right: 20px;
+}
+
+@media (min-width: 960px) {
+  .cliowp-mobile-menu-trigger {
+    display: none;
+  }
+}
+.cliowp-menu-mobile {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.cliowp-menu-mobile li {
+  padding: 10px;
+}
+
+.cliowp-menu-mobile li a {
+  color: white;
+  display: inline-block;
+  width: 100%;
+}
+
+.cliowp-mobile-menu-container {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -20px;
+  font-size: 1.4rem;
+  background-color: rgba(49, 87, 55, 0.89);
+  padding-top: 38px;
+  padding-bottom: 20px;
+  opacity: 0;
+  transform: translateY(-20%);
+  transition: opacity 0.2s ease-out, visibility 0.2s ease-out, transform 0.2s ease-out;
+}
+
+.cliowp-mobile-menu-active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .cliowp-post-meta-container {
   padding: 10px 0 15px 0;
 }
 
+/* Responsive Images */
+img {
+  height: auto;
+  max-width: 100%;
+}
+
 .cliowp-search-container {
   padding: 10px 0 10px 0;
+  float: right;
+}
+
+/* Typography */
+body {
+  font-family: "Ubuntu", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-both {
+  clear: both;
 }
 
 /* WordPress Menu */
