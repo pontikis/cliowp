@@ -19,7 +19,7 @@ function load_front_end_assets()
 add_action('wp_enqueue_scripts', 'load_front_end_assets');
 
 /**
- * Set title tag to web page
+ * Set various theme properties
  */
 function set_theme_properties()
 {

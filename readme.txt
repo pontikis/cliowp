@@ -5,6 +5,12 @@ ClioWP is a WordPress Starter Theme for Developers.
 ClioWP WordPress Theme, (C) 2022 Christos Pontikis
 ClioWP is distributed under the terms of the GNU GPL.
 
+In Greek mythology, Clio is the muse of history: https://en.wikipedia.org/wiki/Clio
+
+## Download
+
+https://github.com/pontikis/cliowp
+
 ## How to use it
 
 In order to create your own theme, starting with ClioWP:
@@ -18,7 +24,7 @@ In order to create your own theme, starting with ClioWP:
 
 More info https://developer.wordpress.org/themes/
 
-### @wordpress/scripts
+## @wordpress/scripts
 
 @wordpress/scripts is recommended for JS and CSS development. In this case:
 
@@ -34,6 +40,12 @@ Using WordPress admin:
 * Go to Settings -> Permalinks and choose "Post name" option
 * create two pages (Home and Blog)
 * Go to Settings -> Reading and set Homepage to Home and Posts page to Blog
+
+## Menus and Mobile menu
+
+Top menu, bottom menu and a Mobile menu have been registred. Use them optionally.
+
+More details at https://www.pontikis.net/blog/how-to-add-a-mobile-menu-in-any-wordpress-theme
 
 ## Coding standards
 
