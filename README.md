@@ -13,12 +13,12 @@ https://github.com/pontikis/cliowp
 
 ## How to use it
 
-In order to create your own theme, starting with ClioWP:
+In order to create your own theme with ClioWP:
 
 * Configure metadata in `style.css`
 * Use your own `screenshot.png`
 * Apply your static HTML design
-* Replace text doamain ('clipowp') with your own
+* Replace text domain ('clipowp') with your own
 * Add your custom code
 * Upload it to WordPress (`wp-content/themes`)
 
@@ -38,12 +38,12 @@ More details at https://www.pontikis.net/blog/how-to-write-js-and-css-in-wordpre
 Using WordPress admin:
 
 * Go to Settings -> Permalinks and choose "Post name" option
-* create two pages (Home and Blog)
+* Create two pages (Home and Blog)
 * Go to Settings -> Reading and set Homepage to Home and Posts page to Blog
 
 ## Menus and Mobile menu
 
-Top menu, bottom menu and a Mobile menu have been registred. Use them optionally.
+Top menu, bottom menu and Mobile menu have been registered. Use them optionally.
 
 More details at https://www.pontikis.net/blog/how-to-add-a-mobile-menu-in-any-wordpress-theme
 
