@@ -14,6 +14,11 @@ function load_front_end_assets()
     wp_enqueue_script('load_main_js', get_theme_file_uri('/build/index.js'), ['jquery'], '1.0', true);
     wp_enqueue_style('load_main_css', get_theme_file_uri('/build/style-index.css'));
     wp_enqueue_style('load_extra_css', get_theme_file_uri('/build/index.css'));
+
+    // optional (required in case you use API calls that need authentication)
+    wp_localize_script('load_main_js', 'wpApiSettings', [
+        'nonce' => wp_create_nonce('wp_rest')
+    ]);
 }
 
 add_action('wp_enqueue_scripts', 'load_front_end_assets');
