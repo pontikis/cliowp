@@ -11,6 +11,10 @@ In Greek mythology, Clio is the muse of history: https://en.wikipedia.org/wiki/C
 
 https://github.com/pontikis/cliowp
 
+## Demo
+
+https://cliowp.pontikis.net
+
 ## How to use it
 
 In order to create your own theme with ClioWP:
