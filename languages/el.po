@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ClioWP\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-21 10:18+0000\n"
-"PO-Revision-Date: 2022-08-21 10:44+0000\n"
+"PO-Revision-Date: 2022-08-21 11:44+0000\n"
 "Last-Translator: Christos\n"
 "Language-Team: Greek\n"
 "Language: el\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: ../../../../cliowp/index.php:15
 msgid "Blog"
-msgstr ""
+msgstr "Ιστολόγιο"
 
 #. Author of the theme
 msgid "Christos Pontikis"
@@ -36,23 +36,23 @@ msgstr ""
 
 #: ../../../../cliowp/front-page.php:17
 msgid "Custom content"
-msgstr ""
+msgstr "Δείγμα κειμένου"
 
 #: ../../../../cliowp/front-page.php:26
 msgid "Custom query"
-msgstr ""
+msgstr "Προσαρμοσμένη αναζήτηση στη βάση"
 
 #: ../../../../cliowp/functions.php:33
 msgid "Footer Menu Location"
-msgstr ""
+msgstr "Θέση για μενού στο κάτω μέρος της σελίδας "
 
 #: ../../../../cliowp/functions.php:31
 msgid "Header Menu Location"
-msgstr ""
+msgstr "Θέση για μενού στο πάνω μέρος της σελίδας "
 
 #: ../../../../cliowp/front-page.php:14
 msgid "Home"
-msgstr ""
+msgstr "Αρχική σελίδα"
 
 #. URI of the theme
 msgid "https://github.com/pontikis/cliowp"
@@ -64,32 +64,32 @@ msgstr ""
 
 #: ../../../../cliowp/functions.php:32
 msgid "Mobile Menu Location"
-msgstr ""
+msgstr "Θέση για μενού σε κινητά"
 
 #: ../../../../cliowp/search.php:27
 msgid "No results for this query"
-msgstr ""
+msgstr "Δεν βρέθηκαν αποτελέσματα για την αναζήτηση"
 
 #: ../../../../cliowp/404.php:10
 msgid "Page not found"
-msgstr ""
+msgstr "Η σελίδα δεν βρέθηκε"
 
 #: ../../../../cliowp/search.php:38
 msgid "Please enter a search term"
-msgstr ""
+msgstr "Παρακαλούμε, εισάγετε ένα όρο για αναζήτηση"
 
 #: ../../../../cliowp/front-page.php:34
 msgid "Read more"
-msgstr ""
+msgstr "Περισσότερα"
 
 #: ../../../../cliowp/search.php:23
 msgid "Results"
-msgstr "<script>alert(\"Αποτελέσματα123\")</script>"
+msgstr "Βρέθηκαν"
 
 #: ../../../../cliowp/search.php:19
 msgid "Search query"
-msgstr ""
+msgstr "Αναζήτηση για"
 
 #: ../../../../cliowp/search.php:14
 msgid "Search results"
-msgstr ""
+msgstr "Αποτελέσματα αναζήτησης"
