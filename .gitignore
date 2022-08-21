@@ -7,12 +7,14 @@ cliowp.sublime-workspace
 # JetBrains PhpStorm IDE files -------------------------------------------------
 /.idea/
 
-# PHP Dependencies -----------------------------------------------------------------
+# PHP Dependencies -------------------------------------------------------------
 /vendor/
 
 # Front end assets -------------------------------------------------------------
 /node_modules/
 
+# Gettext backup files (by Loco Translate) -------------------------------------
+*.po~
 
 # php cs fixer cache -----------------------------------------------------------
 .php_cs.cache
