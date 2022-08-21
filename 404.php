@@ -7,6 +7,6 @@
 ?>
 <?php get_header(); ?>
 
-<h1><?php _e('Page not found', 'cliowp'); ?></h1>
+<h1><?php esc_html_e('Page not found', 'cliowp'); ?></h1>
 
 <?php get_footer();

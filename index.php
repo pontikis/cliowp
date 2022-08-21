@@ -12,7 +12,7 @@
 
 <div>
 
-<h1><?php _e('Blog', 'cliowp'); ?></h1>
+<h1><?php esc_html_e('Blog', 'cliowp'); ?></h1>
 
 <?php get_template_part('template-parts/famous_wordpress_loop'); ?>
 

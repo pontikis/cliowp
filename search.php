@@ -11,20 +11,20 @@ wp_reset_query();
 ?>
 <?php get_header(); ?>
 
-<h1><?php _e('Search results', 'cliowp'); ?>
+<h1><?php esc_htmlesc_html_e('Search results', 'cliowp'); ?>
 </h1>
 
 <?php if (trim(get_search_query())): ?>
 
-<h2><?php _e('Search query', 'cliowp') . ':'; ?>
+<h2><?php esc_html_e('Search query', 'cliowp') . ':'; ?>
     &ldquo;<?php echo esc_html(get_search_query()); ?>&rdquo;</h2>
 
 <?php if ($count_results): ?>
-<h3><?php _e('Results', 'cliowp'); echo ':'; ?>
+<h3><?php esc_htmlesc_html_e('Results', 'cliowp'); echo ':'; ?>
     <?php echo $count_results ?>
 </h3>
 <?php else: ?>
-<h3><?php _e('No results for this query', 'cliowp'); echo '...'; ?>
+<h3><?php esc_html_e('No results for this query', 'cliowp'); echo '...'; ?>
 </h3>
 <?php endif; ?>
 
@@ -35,7 +35,7 @@ wp_reset_query();
 
 <?php else: ?>
 
-<h3><?php _e('Please enter a search term', 'cliowp'); echo '...'; ?>
+<h3><?php esc_html_e('Please enter a search term', 'cliowp'); echo '...'; ?>
 </h3>
 
 <?php endif; ?>
