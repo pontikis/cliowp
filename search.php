@@ -11,7 +11,7 @@ wp_reset_query();
 ?>
 <?php get_header(); ?>
 
-<h1><?php esc_htmlesc_html_e('Search results', 'cliowp'); ?>
+<h1><?php esc_html_e('Search results', 'cliowp'); ?>
 </h1>
 
 <?php if (trim(get_search_query())): ?>
@@ -20,7 +20,7 @@ wp_reset_query();
     &ldquo;<?php echo esc_html(get_search_query()); ?>&rdquo;</h2>
 
 <?php if ($count_results): ?>
-<h3><?php esc_htmlesc_html_e('Results', 'cliowp'); echo ':'; ?>
+<h3><?php esc_html_e('Results', 'cliowp'); echo ':'; ?>
     <?php echo $count_results ?>
 </h3>
 <?php else: ?>
