@@ -19,8 +19,7 @@
 
 <?php get_template_part( 'template-parts/famous_wordpress_loop' ); ?>
 
-<p><?php echo wp_kses_post( paginate_links() ); ?>
-</p>
+<p><?php echo wp_kses_post( paginate_links() ); ?></p>
 
 </div>
 
