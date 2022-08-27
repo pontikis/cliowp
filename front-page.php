@@ -21,7 +21,7 @@ $recent_posts = new WP_Query(
 <h2><?php esc_html_e( 'Custom content', 'cliowp' ); ?>
 </h2>
 
-<p>Welcome to ClioWP, the Free WordPress Starter Theme for Developers. ClioWP is distributed under the terms of the GNU GPL.</p>
+<p>Welcome to ClioWP demo site, the Free WordPress Starter Theme for Developers. ClioWP is distributed under the terms of the GNU GPL.</p>
 
 <hr>
 
