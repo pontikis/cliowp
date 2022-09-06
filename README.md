@@ -7,6 +7,9 @@ ClioWP is distributed under the terms of the GNU GPL.
 
 In Greek mythology, Clio is the muse of history: https://en.wikipedia.org/wiki/Clio
 
+![GitHub Repo stars](https://img.shields.io/github/stars/pontikis/cliowp?style=social)
+![GitHub](https://img.shields.io/github/license/pontikis/cliowp)
+
 ## Download
 
 https://github.com/pontikis/cliowp
