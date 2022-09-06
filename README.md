@@ -9,6 +9,11 @@ In Greek mythology, Clio is the muse of history: https://en.wikipedia.org/wiki/C
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/pontikis/cliowp?style=social)
 ![GitHub](https://img.shields.io/github/license/pontikis/cliowp)
+![Twitter Follow](https://img.shields.io/twitter/follow/CPontikis?style=social)
+![GitHub language count](https://img.shields.io/github/languages/count/pontikis/cliowp)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/pontikis/cliowp)
+![GitHub issues](https://img.shields.io/github/issues/pontikis/cliowp)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/pontikis/cliowp)
 
 ## Download
 
