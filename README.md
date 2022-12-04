@@ -69,3 +69,7 @@ ClioWP supports localization (using gettext). Currently, Greek language is also 
 I prefer to use Alternative PHP syntax for control structures
 
 See  https://www.php.net/manual/en/control-structures.alternative-syntax.php
+
+## Child theme
+
+If you want to experiment with a child theme, find ClioWP Child Theme at https://github.com/pontikis/cliowp-child-theme
