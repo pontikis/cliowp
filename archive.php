@@ -15,7 +15,7 @@
 <p><?php the_archive_description(); ?>
 </p>
 
-<?php get_template_part( 'template-parts/famous_wordpress_loop' ); ?>
+<?php get_template_part( 'template-parts/famous-wordpress-loop' ); ?>
 
 <p><?php echo wp_kses_post( paginate_links() ); ?></p>
 

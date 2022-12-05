@@ -38,7 +38,7 @@ wp_reset_postdata();
 </h3>
 <?php endif; ?>
 
-	<?php get_template_part( 'template-parts/famous_wordpress_loop' ); ?>
+	<?php get_template_part( 'template-parts/famous-wordpress-loop' ); ?>
 
 <p><?php echo wp_kses_post( paginate_links() ); ?></p>
 

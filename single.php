@@ -19,7 +19,7 @@ while ( have_posts() ) :
 
 	<?php the_post_thumbnail(); ?>
 
-	<?php get_template_part( 'template-parts/topic_meta' ); ?>
+	<?php get_template_part( 'template-parts/topic-meta' ); ?>
 
 	<?php the_content(); ?>
 
