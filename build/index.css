@@ -1,6 +1,6 @@
-/*!************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/normalize.css/normalize.css ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/normalize.css/normalize.css ***!
+  \**********************************************************************************************************************************************************************************************/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -88,7 +88,8 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -351,20 +352,20 @@ template {
   display: none;
 }
 
-/*!*************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/bootstrap-icons/font/bootstrap-icons.css ***!
-  \*************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/bootstrap-icons/font/bootstrap-icons.css ***!
+  \***********************************************************************************************************************************************************************************************************/
 /*!
- * Bootstrap Icons v1.11.2 (https://icons.getbootstrap.com/)
- * Copyright 2019-2023 The Bootstrap Authors
+ * Bootstrap Icons v1.11.3 (https://icons.getbootstrap.com/)
+ * Copyright 2019-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/icons/blob/main/LICENSE)
  */
 
 @font-face {
   font-display: block;
   font-family: "bootstrap-icons";
-  src: url(fonts/bootstrap-icons.64ed46b2.woff2) format("woff2"),
-url(fonts/bootstrap-icons.66b7720f.woff) format("woff");
+  src: url(fonts/bootstrap-icons.b7bcc075.woff2) format("woff2"),
+url(fonts/bootstrap-icons.39795c0b.woff) format("woff");
 }
 
 .bi::before,
